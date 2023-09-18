@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.View.Registro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry x:Name="txtNombre" Placeholder="Ingrese su nombre"/>
+            <Entry x:Name="txtEmail" Placeholder="Ingrese su email"/>
+            <Entry x:Name="txtPassword" Placeholder="Ingrese su contraseña"/>
+            <Entry x:Name="txtDni" Placeholder="Ingrese su dni"/>
+            <Entry x:Name="txtApp" Placeholder="Ingrese su apellido paterno"/>
+            <Entry x:Name="txtApm" Placeholder="Ingrese su apellido materno"/>
+            <Button Text="Registrarse" x:Name="btnRegistro" Clicked="btn_Registro"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
