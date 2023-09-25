@@ -4,9 +4,18 @@
              x:Class="Login.View.Pagina_Paquetes">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Button Text="Obtener Paquetes" x:Name="btnEntradas" Clicked="btn_ObtenerEntrada"/>
+            <CollectionView x:Name="Lista_Entrada" Margin="25">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Margin="20">
+                            <Label Text="Pais:" />
+                            <Label Text="{Binding nombre}" />
+                            <Button Text="Ver vuelos" x:Name="btnVerVuelos" Clicked="btn_VerVuelos" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

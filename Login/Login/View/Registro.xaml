@@ -3,13 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Login.View.Registro">
     <ContentPage.Content>
-        <StackLayout>
+        <StackLayout Padding="60">
             <Entry x:Name="txtNombre" Placeholder="Ingrese su nombre"/>
             <Entry x:Name="txtEmail" Placeholder="Ingrese su email"/>
             <Entry x:Name="txtPassword" Placeholder="Ingrese su contraseña"/>
             <Entry x:Name="txtDni" Placeholder="Ingrese su dni"/>
             <Entry x:Name="txtApp" Placeholder="Ingrese su apellido paterno"/>
             <Entry x:Name="txtApm" Placeholder="Ingrese su apellido materno"/>
+            <Entry x:Name="txtTargeta" Placeholder="Ingrese su Numero de targeta"/>
             <Button Text="Registrarse" x:Name="btnRegistro" Clicked="btn_Registro"/>
         </StackLayout>
     </ContentPage.Content>

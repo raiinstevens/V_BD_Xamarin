@@ -30,9 +30,10 @@ namespace Login.View
                 email =txtEmail.Text,
                 password = txtPassword.Text,
                 dni = txtDni.Text,
+                targeta= txtTargeta.Text,
             };
 
-            Uri RequestUri = new Uri("https://b372-213-173-36-2.ngrok-free.app/api/register");
+            Uri RequestUri = new Uri("https://7f3a-213-173-36-2.ngrok-free.app/api/register");
             var client = new HttpClient();
             var json = JsonConvert.SerializeObject(reg);
             var contentJson = new StringContent(json, Encoding.UTF8, "application/json");
@@ -46,6 +47,7 @@ namespace Login.View
                 txtEmail.Text = "";
                 txtPassword.Text = "";
                 txtDni.Text = "";
+                txtTargeta.Text = "";
                 await Navigation.PushAsync(new Page1());
 
             }

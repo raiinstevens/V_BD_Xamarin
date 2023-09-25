@@ -72,7 +72,6 @@ namespace Login.View
             {
                 entrada_id = selectedEntradaId,
                 asiento = asiento.Text,
-                email = AppSettings.Instance.email,
 
             };
             Uri RequestUri = new Uri("https://b372-213-173-36-2.ngrok-free.app/api/comprarEntrada");

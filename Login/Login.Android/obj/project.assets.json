@@ -4353,11 +4353,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login.Android\\Login.Android.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login.Android\\Login.Android.csproj",
       "projectName": "Login.Android",
-      "projectPath": "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login.Android\\Login.Android.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login.Android\\Login.Android.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login.Android\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -4380,8 +4380,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login\\Login.csproj": {
-              "projectPath": "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login\\Login.csproj"
+            "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login\\Login.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login\\Login.csproj"
             }
           }
         }
@@ -4394,6 +4394,14 @@
             "target": "Package",
             "version": "[13.0.3, )"
           },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
+          },
+          "Newtonsoft.Json.Bson": {
+            "target": "Package",
+            "version": "[1.0.2, )"
+          },
           "Newtonsoft.Json.Bson": {
             "target": "Package",
             "version": "[1.0.2, )"
@@ -4401,6 +4409,14 @@
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.8.0, )"
+          },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.8.0, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2612, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Login.View.DetallesVuelos">
+    <ContentPage.Content>
+        <StackLayout>
+            <CollectionView x:Name="Lista_Entrada" Margin="25">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Margin="20">
+                            <Label Text="Fecha:" />
+                            <Label Text="{Binding vue_fecha}" />
+                            <Label Text="Hora:" />
+                            <Label Text="{Binding vue_hora}" />
+                            <Label Text="pais:" />
+                            <Label Text="{Binding pais}" />
+                            <Label Text="claseProbre:" />
+                            <Label Text="{Binding claseProbre}" />
+                            <Button Text="Comprar Vuelo" x:Name="btnCompraVueloP" Clicked="btn_ComprarVueloP" />
+                            <Label Text="claseVip:" />
+                            <Label Text="{Binding claseVip}" />
+                            <Button Text="Comprar Vuelo" x:Name="btnCompraVueloV" Clicked="btn_ComprarVueloV" />
+                            <Label Text="claseFachero:" />
+                            <Label Text="{Binding claseFachero}" />
+                            <Button Text="Comprar Vuelo" x:Name="btnCompraVueloF" Clicked="btn_ComprarVueloF" />
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

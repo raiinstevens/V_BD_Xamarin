@@ -23,15 +23,6 @@ namespace Login
             InitializeComponent();
         }
 
-        /*private void Entry_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            if (sender == txtUsername)
-            {
-                AppSettings.Instance.email = e.NewTextValue;
-            }
-        }*/
-
-
         private async void Logiar(object sender, EventArgs e)
         {
             Login_Clase log = new Login_Clase()
@@ -41,7 +32,7 @@ namespace Login
             };
 
             // Verifica las credenciales (aquí deberías agregar tu lógica de autenticación)
-            Uri RequestUri = new Uri("https://b372-213-173-36-2.ngrok-free.app/api/login");
+            Uri RequestUri = new Uri("https://7f3a-213-173-36-2.ngrok-free.app/api/login");
             var client = new HttpClient();
             var json = JsonConvert.SerializeObject(log);
             var contentJson = new StringContent(json, Encoding.UTF8, "application/json");
@@ -49,17 +40,26 @@ namespace Login
 
             if (response.StatusCode == HttpStatusCode.OK)
             {
-                /*string content = await response.Content.ReadAsStringAsync();
+                string content = await response.Content.ReadAsStringAsync();
 
-                // Deserializa la respuesta JSON para obtener el valor "email"
-                dynamic responseData = JsonConvert.DeserializeObject(content);
-                string email = responseData.email;
+                ApiResponse responseData = JsonConvert.DeserializeObject<ApiResponse>(content);
+                int userId = responseData.id;
 
-                // Guarda el valor "email" en una variable global
-                AppSettings.Instance.email = email;
+                // Guarda el ID en una variable global o en AppSettings
+                AppSettings.Instance.UserId = userId;
+
+                // Guarda el nombre completo en AppSettings
+                string fullName = responseData.fullnombre; // Reemplaza esto con el nombre real obtenido de la API
+                AppSettings.Instance.FullName = fullName;
+
+                System.Diagnostics.Debug.WriteLine($"claseId: {userId}");
+                System.Diagnostics.Debug.WriteLine($"Nombre Completo: {fullName}");
 
                 await DisplayAlert("Datos", "Se logueó correctamente", "OK");
-                await Navigation.PushAsync(new Pagina_Principal());*/
+                txtPassword.Text = "";
+                txtUsername.Text = "";
+                
+                await Navigation.PushAsync(new Pagina_Principal());
             }
             else
             {

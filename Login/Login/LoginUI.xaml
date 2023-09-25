@@ -5,7 +5,7 @@
              BackgroundColor="DarkBlue"  >
     <ContentPage.Content>
         <StackLayout Padding="40" VerticalOptions="Center">
-            <Entry x:Name="txtUsername" TextChanged="Entry_TextChanged" Placeholder="Email" TextColor="White" PlaceholderColor="Gray"></Entry>
+            <Entry x:Name="txtUsername" Placeholder="Email" TextColor="White" PlaceholderColor="Gray"></Entry>
             <Entry x:Name="txtPassword" Placeholder="Contraseña" IsPassword="True" TextColor="White" PlaceholderColor="Gray"></Entry>
             <Button
                 VerticalOptions="Center"

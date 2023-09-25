@@ -20,6 +20,7 @@ namespace Login.View
         public Pagina_Principal()
         {
             InitializeComponent();
+            BindingContext = AppSettings.Instance;
         }
         private async void btn_Paquetes(object sender, EventArgs e) 
         {
@@ -29,7 +30,13 @@ namespace Login.View
         private async void btn_Entradas(object sender, EventArgs e)
         {
             
-            await Navigation.PushAsync(new Pagina_Entrada());
+            await Navigation.PushAsync(new Vuelos());
+        }
+
+        private async void btn_Cerrar(object sender, EventArgs e)
+        {
+
+            await Navigation.PushAsync(new Page1());
         }
     }
 }

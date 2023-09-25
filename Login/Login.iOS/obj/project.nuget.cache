@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j4KmGhbVmtK4pJ5Y9j2vsJem5bKfl/X+rhNz1NelzLXNE9MMAUV/SN2eJvjCNB3fTizs5pEnjgECJ7me++r9xA==",
+  "dgSpecHash": "eyBUJssTomoZla0MOFq+V0ydQb7n1+suImH23klIfaBjNFklDKf34/ylW16cJSEplqmbLri3GBvibTBVbyD4RQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login.iOS\\Login.iOS.csproj",
+  "projectFilePath": "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login.iOS\\Login.iOS.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",

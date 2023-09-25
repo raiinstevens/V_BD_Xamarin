@@ -1464,11 +1464,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login.iOS\\Login.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login.iOS\\Login.iOS.csproj",
       "projectName": "Login.iOS",
-      "projectPath": "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login.iOS\\Login.iOS.csproj",
+      "projectPath": "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login.iOS\\Login.iOS.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login.iOS\\obj\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -1491,8 +1491,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login\\Login.csproj": {
-              "projectPath": "C:\\Users\\USER\\Desktop\\Log_Xamarin\\Login\\Login\\Login\\Login.csproj"
+            "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login\\Login.csproj": {
+              "projectPath": "C:\\Users\\USER\\Desktop\\Xamarin_BD\\Login\\Login\\Login\\Login.csproj"
             }
           }
         }
